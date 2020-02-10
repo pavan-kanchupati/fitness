@@ -1,0 +1,120 @@
+.fixed-top {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  header .header_logo_title {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+  .MuiList-padding-41 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: contents;
+}
+
+.MuiListItem-root-44 {
+    display: flex;
+    /* position: relative; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* justify-content: flex-start; */
+    text-decoration: none;
+}
+
+.MuiButtonBase-root-54.MuiListItem-root-44.MuiListItem-default-47.MuiListItem-gutters-51.MuiListItem-button-52 {
+    width: 107px;
+}
+header.MuiPaper-root-9.MuiPaper-elevation4-15.MuiAppBar-root-1.MuiAppBar-positionFixed-2.MuiAppBar-colorPrimary-7.mui-fixed {
+    padding: 0px 0px 10px 0px;
+}
+.MuiTouchRipple-root-57 {
+    display: none;
+}
+
+/*----------- toggle button --------*/
+
+.MuiIconButton-root-64 {
+  flex: 0 0 auto;
+  width: 100px;
+  color: rgba(0, 0, 0, 0.54);
+  height: 58px;
+  padding: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 0px;
+}
+.MuiIconButton-root-64:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiIconButton-root-64.MuiIconButton-disabled-68 {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiIconButton-root-64:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-root-64:hover.MuiIconButton-disabled-68 {
+  background-color: transparent;
+}
+.MuiIconButton-colorInherit-65 {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary-66 {
+  color: #3f51b5;
+}
+.MuiIconButton-colorPrimary-66:hover {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary-66:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary-67 {
+  color: #f50057;
+}
+.MuiIconButton-colorSecondary-67:hover {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary-67:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-label-69 {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+
+
+
+/*----------------------*/
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

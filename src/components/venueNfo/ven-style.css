@@ -1,0 +1,59 @@
+ body{
+     background: radial-gradient(#e5e5e5, #ffffff, #e5e5e5);
+ }
+
+ .venue{
+     width: 17rem;
+ }
+
+ .venue:hover{
+     box-shadow: 5px 10px 20px 1px rgba(0, 0,0, 0.253) ;
+ }
+
+
+ .venue-text{
+    font-size: 0.9rem;
+    text-align: justify;
+ }
+
+ .text-dark{
+     padding: 20px;
+ }
+ 
+
+ .venue-img-top{
+     transform: scale(1);
+     transition:transform 0.5s ease;
+ }
+
+ .venue-img-top:hover{
+     transform: scale(1.8);
+ }
+
+ .overflow{
+     overflow: hidden;
+ }
+
+ .btn{
+    background-color: rgba(0, 0,0, 0.253);
+    padding: 10px 20px;
+ }
+
+ .btn:hover{
+     background: rgb(248, 123, 21);
+     color: #fff;
+ }
+
+.activity-title{
+    text-align: center;
+    
+}
+
+.activity-title h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    font-size: 52px;
+    margin-top: 40px;
+
+}

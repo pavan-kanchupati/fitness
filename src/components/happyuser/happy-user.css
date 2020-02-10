@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+.happyuser h2{
+    text-align: center;
+}
+
+.happy-img{
+    border-radius: 50%;
+}
+.happy h3{
+    text-align: center;
+}
+.happyuser h2{
+    font-size: 52px;
+    text-align: center;
+}
+
+.happy{
+    text-align: center;
+}
